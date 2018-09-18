@@ -1,0 +1,8 @@
+function (err) {
+        if (err) throw err;
+        console.log('Zapisano!'.blue);
+        fs.readFile('./ups.jpg', function(err, data) {
+            console.log('Dane po zapisie'.blue)
+            console.log(data);
+        });
+    }
