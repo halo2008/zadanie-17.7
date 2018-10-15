@@ -1,1 +1,3 @@
-file.js,obj.js,OSinfo.js
+file.js
+OSinfo.js
+obj.js
